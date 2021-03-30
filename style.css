@@ -1,0 +1,34 @@
+#firstBox{
+    padding: 100px 150px;
+    border-radius: 88px;
+    background: linear-gradient(145deg, #a7c6f8, #8ca7d1);
+    box-shadow:  31px 31px 0px #617390,
+                 -31px -31px 0px #d7ffff;
+}
+
+#title{
+    text-align: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#generateButton{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 25px 50px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #a7c6f8, #8ca7d1);
+    box-shadow:  20px 20px 0px #3e4a5d,
+                 -20px -20px 0px #faffff;
+}
+
+body{
+    background: #9cb9e8;
+}
+
+#generateButton{
+    background-color: rgb(228, 73, 99);
+}

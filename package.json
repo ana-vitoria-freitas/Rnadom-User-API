@@ -1,0 +1,16 @@
+{
+  "name": "randomuser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "random.js",
+  "scripts": {
+	"build": "browserify random.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "is-iojs": "^1.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}
